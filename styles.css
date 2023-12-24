@@ -1,0 +1,39 @@
+/* This is a CSS comment. Put your CSS styling below this line */
+
+.body-poem {
+    background-image: url("moon.jpg");
+    height: 100vh;
+    background-repeat: round;
+}
+
+.image-div {
+    align-items: center;
+}
+
+.santa-image {
+    max-width: 100%;
+
+}
+
+.poem-line {
+    margin: 20px;
+}
+
+.right-text {
+    min-width: 300px;
+}
+
+.link-back {
+    margin-left: 150px;
+}
+
+@media only screen and (max-width: 1450px) {
+    .parent {
+        flex-wrap: wrap;
+    }
+
+    .image-div {
+        width: 100vw;
+        align-items: center;
+    }
+}
